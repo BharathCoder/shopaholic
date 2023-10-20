@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopaholic</title>
+    <link rel="shortcut icon" href="./static/img/brand.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/utils.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="links vix">
+            <a href="#" class="link">Home</a>
+            <a href="#products" class="link">Products</a>
+        </div>
+        <div class="logo">
+            <img src="./static/img/brand.png">
+            <h2>Shopaholic</h2>
+        </div>
+        <div class="search-wrapper vix">
+            <div class="search">
+                <input type="search" id="search" placeholder="Search for a product...">
+                <button id="searchBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M21,3c-9.37891,0 -17,7.62109 -17,17c0,9.37891 7.62109,17 17,17c3.71094,0 7.14063,-1.19531 9.9375,-3.21875l13.15625,13.125l2.8125,-2.8125l-13,-13.03125c2.55469,-2.97656 4.09375,-6.83984 4.09375,-11.0625c0,-9.37891 -7.62109,-17 -17,-17zM21,5c8.29688,0 15,6.70313 15,15c0,8.29688 -6.70312,15 -15,15c-8.29687,0 -15,-6.70312 -15,-15c0,-8.29687 6.70313,-15 15,-15z"></path></g></g></svg>
+                </button>
+            </div>
+        </div>
+        <div class="burger viz">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="text-left">
+            <h3>NEW ARRIVAL</h3>
+            <p>Emporio Armani Luxury Suit</p>
+            <a class="btn btn-lg" href="#products">Explore</a>
+        </div>
+    </section>
+    <section class="products" id="products">
+            <!-- <template> -->
+                <div class="product-item">
+                    <div class="img-tag">
+                        <img src="./prod/vspace_adidas_1.avif" height="350" width="350" alt="">
+                    </div>
+                        <h3 class="product-title">Adidas VS Pace 2.0</h3>
+                        <a href="#" target="_blank" class="btn redirect">Buy</a>
+                </div>
+            <!-- </template> -->
+    </section>
+    <nav class="footer">
+        <div class="social-media">
+            <a href="https://google.com" target="_blank">
+                <div class="media-item">
+                    <i class="bi bi-facebook fb"></i>
+                </div>
+            </a>
+            <a href="https://google.com" target="_blank">
+                <div class="media-item">
+                    <i class="bi bi-instagram ig"></i>
+                </div>
+            </a>
+            <a href="https://google.com" target="_blank">
+                <div class="media-item">
+                    <i class="bi bi-whatsapp wa"></i>
+                </div>
+            </a>
+            <a href="https://google.com" target="_blank">
+                <div class="media-item">
+                    <i class="bi bi-youtube yt"></i>
+                </div>
+            </a>
+        </div>
+        <div class="rights">
+            <p>All Rights Reserved &nbsp;</p>
+            <p>&copy; 2023</p>
+        </div>
+    </nav>
+        <script src="./js/index.js"></script>
+</body>
+</html>
